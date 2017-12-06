@@ -8,10 +8,10 @@
 ## Basic Document
 
 Open index.html 
-	1. `Doctype` gives the browser the version of html you are using (html is html5)
-	2. `html` this is the full document
-	3. `head` this is metadata for the document: information for the browser
-	4. `body` this is the content of the document: what the user will see 
+1. `Doctype` gives the browser the version of html you are using (html is html5)
+2. `html` this is the full document
+3. `head` this is metadata for the document: information for the browser
+4. `body` this is the content of the document: what the user will see 
 
 ### HTML Basics
 
@@ -20,17 +20,18 @@ HTML stands for  "hyper text markup language". It marks up text using tags to de
 **tags** - surrounded by angled brackets `<tag>`, Usually come in pairs `<tag></tag>`, the closing tag starts with a  forward slash / 
 - tags can contain content 
 - tags can be nested
+
 **attributes** - are part of the tag `<tag attribute=‘value’></tag>` they give more information about the element. They are always a part of the start tag, never the end. They can either be key=‘value’ or key
 
 ### Elements
 1. **Title**  `<title>` This is what will appear in the text for the tab. It belongs in the header
 2. **Headings** `<h1> <h2> <h3> <h4> <h5> <h6>` These will be rendered large and bold. They are your section headings
-3. **Paragraphs** `<p>` These are blocks of text. This is the meet of the content.
+3. **Paragraphs** `<p>` These are blocks of text. This is the meat of the content.
 4. **Links** `<a>` This are links to other parts of the current page or other pages,
 	1. The `href` attribute is the destination location. You can give it a full web address, a name of a document in the same folder, or the id of an element on the current page (we’ll get to ids later).
 5. **Images** `<img>` These will render the image on the page.
 	1. The `src` attribute is the location of the image. You can either give it a full web address or a path.
-	2. The `alt` attribute give the image text if you hover over it.
+	2. The `title` attribute give the image text if you hover over it.
 6. **Breaks** `<br/>` The break element inserts a line break on the page. This is a self closing tag, so you only need one.
 
 ### Layout and Style

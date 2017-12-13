@@ -60,7 +60,7 @@ You can nest these elements to ensure your page looks the way you want
 	1. Each element of the list is represented by `<li>` standing for list item. These are nested in the `<ol>` or `<ul>` tags. 
 
 
-*Image by Visit Lakeland*
+*campfire.jpg by Visit Lakeland*
 
 # CSS Lesson 2
 ## CSS Introduction
@@ -133,7 +133,7 @@ This is just a selection of rules and values that are very common. There are man
 * `border` - short hand for all of the above
 
 ### Box Model 
-[image:3412A09F-7F70-420B-944D-BD5083683AEC-413-00000E0CCEBDA75C/boxmodel.gif]
+[image:boxmodel.gif]
 ```
 Content - The text/image in the element
 Padding - Transparent area around content
@@ -189,3 +189,4 @@ Margin - Transparent spacing between border and other elements
 	*  *values* - visible, hidden, inherit
 	* `visibility:hidden` does not show an element, but it still takes up space
 
+*circles-and-roundabouts by Riadh Khan*

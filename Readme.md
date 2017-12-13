@@ -61,3 +61,47 @@ You can nest these elements to ensure your page looks the way you want
 
 
 *Image by Visit Lakeland*
+
+# CSS Lesson 2
+## CSS Introduction
+### Defining Style
+**CSS** stands for Cascading Style Sheets. It gives the browser information on how to display HTML elements on the screen.
+
+There are three places you can define style
+* external style sheet - save your style as a file and link it to your document
+	* `<link rel="stylesheet" type="text/css" href="mystyle.css">`
+	* This way is the most reusable, as you can upload your file to many pages in the same site
+* internal style sheet - insert style directly in the `head` element
+	* `<style></style>`
+* inline style - insert style on the individual element
+	* `<element style=“…”>`
+
+### Format
+The format for external and internal stylesheets are the same (we have already seen inline style in the HTML lesson): 
+```
+selector {
+	key: value;
+	key2: value;
+}
+
+selector2 {
+	key: value
+}
+```
+
+### Selectors (basics)
+1. **Element** selectors select all elements with that tag ex `p` would match `<p>`
+2. **Id** selectors select the specific element where the id attribute of the element matches. To indicate it is an id match, it starts with a `#` ex. `#main-header` would match `<h1 id=‘main header’>`
+3. **Class** selectors select all the elements where the class attribute of the element matches. To indicate it is a class match it starts with a `.` ex. `.pretty` would match `<h1 class=“pretty”>` and `<ul class=“pretty”>`
+
+#### Id’s and Classes (aside)
+`id` and `class` are HTML attributes. Id’s on a page must be unique i.e. there cannot be two elements with id=‘main-header’. There can be many of the same classes i.e. 10 elements could have class=‘pretty’. Additionally an element can have many classes, to have more than one class, separate them with a space. e.x. class=‘pretty strong heading-content’
+
+#### Combining selectors
+You can combine element and class or element and id selectors by squishing the id/class selector to the element selector. Ex `h1#main-header` or `p.pretty`
+You can also group many selectors together if they will all have the same rules. You separate these with a space. ex. `h1, h2, h3`
+
+## Rules
+### Color
+
+

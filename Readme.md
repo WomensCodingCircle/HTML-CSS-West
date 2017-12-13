@@ -60,7 +60,7 @@ You can nest these elements to ensure your page looks the way you want
 	1. Each element of the list is represented by `<li>` standing for list item. These are nested in the `<ol>` or `<ul>` tags. 
 
 
-*Image by Visit Lakeland*
+*campfire.jpg by Visit Lakeland*
 
 # CSS Lesson 2
 ## CSS Introduction
@@ -189,3 +189,4 @@ Margin - Transparent spacing between border and other elements
 	*  *values* - visible, hidden, inherit
 	* `visibility:hidden` does not show an element, but it still takes up space
 
+*circles-and-roundabouts by Riadh Khan*

@@ -102,6 +102,90 @@ You can combine element and class or element and id selectors by squishing the i
 You can also group many selectors together if they will all have the same rules. You separate these with a space. ex. `h1, h2, h3`
 
 ## Rules
+This is just a selection of rules and values that are very common. There are many more that you can look up. 
 ### Color
+ **Properties**
+* `color` - font color
+* `background-color` - color of background
 
+**Color Formats**
+* name - red, green, blue [Web colors - Wikipedia](https://en.wikipedia.org/wiki/Web_colors#/media/File:SVG_Recognized_color_keyword_names.svg)
+* hex - #4f4f4f (#rrggbb)
+* rgb - rgb(255,99, 71)
+
+### Backgrounds
+ **Properties**
+* `background-color` - color of background
+	* values - color formats
+* `background-image` - image for background
+	* values - url, none, linear-gradient()
+* `background—repeat` - how image will be repeated
+	* value - repeat, repeat-x, repeat-y, no-repeat, space
+
+### Borders
+ **Properties**
+* `border-width` - size of border
+	* size in px, pt, cm, em or thin, medium, thick
+* `border-style` - line style
+	* solid, dotted, dashed, double, none
+* `border-color` - color or border
+	* color value as above
+* `border` - short hand for all of the above
+
+### Box Model 
+[image:3412A09F-7F70-420B-944D-BD5083683AEC-413-00000E0CCEBDA75C/boxmodel.gif]
+```
+Content - The text/image in the element
+Padding - Transparent area around content
+Border - Visible border around padding
+Margin - Transparent spacing between border and other elements
+```
+ **Properties**
+* `padding` - Transparent area around content
+	* *values* - size values, % of containing element, inherit (same as parent)
+	* can suffix padding with top, right, bottom, left. ex. `padding-top`
+* `margin` - Transparent spacing between border and other elements
+	* *values* - size values, % of containing element, inherit (same as parent)
+	* can suffix padding with top, right, bottom, left. ex. `margin-top`
+
+### Size
+ **Properties**
+* `height` - vertical size of element
+	* *values* - auto, length (px, cm), % of containing block, inherit
+	* `max-height` and `min-height` are also available 
+* `width` - horizontal size of element
+	* 	*values* - auto, length (px, cm), % of containing block, inherit
+	* `max-width` and `min-width` are also available 
+
+### Text
+ **Properties**
+* `color` - font color
+	*  color value as above
+* `text-align` - alignment of paragraph text
+	* *values* - right, left, center, justify
+* `text-decoration` - adds some decoration to text
+	* *values* - underline, overlain, line through, inherit
+* `line-height` - spacing between lines in text
+	* *values* - size values, % of text height
+	
+### Fonts
+ **Properties**
+* `font-family` - font and class of font for text
+	* *values* generic classes - serif, sans-serif, monospace, font-names - Arial, Courier, Times New Roman
+	* You can put several in a line, the first that the computer is able to show will be displayed ex. `font-family: "Times New Roman", Georgia, serif`
+* `font-size` - size of text
+	* *values* - px, em, %
+* `font-style` - mostly for italics
+	* *values* - normal, italic, oblique
+* `font-weight` - mostly for bold
+	* *values* - normal, bold
+
+### Display
+**Properties**
+* `display` - how element should be displayed
+	* *values* - inline, block, none,  inherit
+	* `display:none` removes element from layout
+* `visibility` - whether an element should be visible
+	*  *values* - visible, hidden, inherit
+	* `visibility:hidden` does not show an element, but it still takes up space
 

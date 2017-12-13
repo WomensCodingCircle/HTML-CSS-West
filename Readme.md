@@ -116,21 +116,23 @@ This is just a selection of rules and values that are very common. There are man
 ### Backgrounds
  **Properties**
 * `background-color` - color of background
-	* values - color formats
+	* *values* - color formats
 * `background-image` - image for background
-	* values - url, none, linear-gradient()
+	* *values* - url, none, linear-gradient()
 * `background—repeat` - how image will be repeated
-	* value - repeat, repeat-x, repeat-y, no-repeat, space
+	* *values* - repeat, repeat-x, repeat-y, no-repeat, space
 
 ### Borders
  **Properties**
 * `border-width` - size of border
-	* size in px, pt, cm, em or thin, medium, thick
+	* *values* - size in px, pt, cm, em or thin, medium, thick
 * `border-style` - line style
-	* solid, dotted, dashed, double, none
+	* *values* - solid, dotted, dashed, double, none
 * `border-color` - color or border
-	* color value as above
+	* *values* - color value as above
 * `border` - short hand for all of the above
+* `border-radius` - rounds the corners of border 
+	* *values* - length of circle radius for rounded corners
 
 ### Box Model 
 ![Box Model](boxmodel.gif)
@@ -154,13 +156,13 @@ Margin - Transparent spacing between border and other elements
 	* *values* - auto, length (px, cm), % of containing block, inherit
 	* `max-height` and `min-height` are also available 
 * `width` - horizontal size of element
-	* 	*values* - auto, length (px, cm), % of containing block, inherit
+	* *values* - auto, length (px, cm), % of containing block, inherit
 	* `max-width` and `min-width` are also available 
 
 ### Text
  **Properties**
 * `color` - font color
-	*  color value as above
+	* *values* - color value as above
 * `text-align` - alignment of paragraph text
 	* *values* - right, left, center, justify
 * `text-decoration` - adds some decoration to text

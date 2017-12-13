@@ -133,7 +133,7 @@ This is just a selection of rules and values that are very common. There are man
 * `border` - short hand for all of the above
 
 ### Box Model 
-[image:3412A09F-7F70-420B-944D-BD5083683AEC-413-00000E0CCEBDA75C/boxmodel.gif]
+[image:boxmodel.gif]
 ```
 Content - The text/image in the element
 Padding - Transparent area around content

@@ -191,4 +191,58 @@ Margin - Transparent spacing between border and other elements
 	*  *values* - visible, hidden, inherit
 	* `visibility:hidden` does not show an element, but it still takes up space
 
+### Centering
+One way to center content is to use widths and margins.
+* Give your element a set width either in px or %. Then set `margin: auto`
+* You can do this with % widths/margins too
+	* `width: 60%; margin-right: 20%; margin-left:20%`
+
+### Tables
+ **Properties**
+ * `border-collapse` - sets whether borders for individual cells should be collapsed into a single border 
+ 	* *values* - collapse, separate
+ * `border` - same as for other elements
+ * `text-align` - same as for other elements
+ * `vertical-align` - vertically aligns text in cells
+ 	* *values* - top, bottom, center
+
+### Lists
+**Properties**
+* `list-style-type` - select shape of marker from browser defaults
+	* *values* - disc, circle, decimal, georgian, lower-roman, upper-roman, none ...
+* `list-style-image` - uses an image for list marker 
+	* *values* - url('<url to image>')
+* `list-style-position` - put list markers insider or outside flow of content
+	* *values* - inside, outside
+
+### Position
+**Properties**
+* `position` - determines positioning method for element, set `top, left, bottom, right` properties to position element
+	* `static` - default, in the flow of content
+	* `relative` - relative to default location 
+	* `fixed` - relative to viewport, always stays in the same place even during scrolling
+	* `absolute` - relative to nearist positioned ancestor 
+	* `sticky` - relative until it reaches specified offset position in viewport, then fixed
+
+### Float
+**Properties**
+* `float` - element floats to left or right of container
+	* *values* - left, right, none, inherit
+
+## Frameworks
+
+Most developers don't start from scratch when laying out their website. Many will choose to use one of the many available frameworks. The currently most popular of these is [Bootstrap](https://getbootstrap.com/) 
+
+### Bootstrap
+Bootstrap is a set of files (css and javascript) that you include on your page and it gives you a basic style and several useful elements you can build your page with. It uses a grid based layout system so you don't have to worry about setting up the margins, widths and floats to position your elements in a pleasing fashion. 
+
+Once you start to use bootstrap, you'll start to recognize sites that use the default bootstrap style. There is an easy fix for your own site. There are hundreds of free (and paid) templates out there that allow you to use bootstrap elements and layout but look like a cutting edge modern website. Just google `bootstrap templates free` (you can add the current year to get the absolute latest)
+
+You can also layer your own css on top of bootstrap style. Use bootstrap as a foundation for your site, but then build on top of it. Add your own classes and ids to override bootstrap's default styling. Adding `!important` at the end of any css rule (but before the semicolon) makes that the rule that gets priority  if you have trouble overriding selectors.  
+
+## More Help
+
+The best resource I have found for learning CSS is [W3 Schools](https://www.w3schools.com/css/default.asp) They have an extensive tutorial for CSS and for Bootstrap and allow you to try things out in the browser.
+
+
 *circles-and-roundabouts by Riadh Khan*

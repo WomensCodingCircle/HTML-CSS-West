@@ -1,0 +1,22 @@
+h1 {
+    color: #0044a9;
+    background-color: #eeeeee;
+}
+body {
+    background-image: url("circles-and-roundabouts.png");
+}
+h1, h2, h3, h4 {
+    background-color: #eeeeee;
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+    padding: 5px;
+}
+#campfire {
+    margin-top: 20px;
+}
+p {
+    width: 75%;
+    min-width: 600px;
+    background: white;
+    padding: 5px;
+}

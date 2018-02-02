@@ -259,9 +259,10 @@ There are many ways to get your website from your computer out into the internet
 NPM is a package manager. It allows you to install certain programs that have been uploaded to their site (like Surge).
 [Node.js](https://nodejs.org/en/) 
 2. Open the command line (terminal in OSX, powershell in Windows)
-3. Navigate to the directory with your site use `cd <directory name>`
-4. Run `surge` and follow prompts if it is your first time deploying
-5. You can reach your site from the url that the program prints out
+3. Install Surge `npm install --global surge`
+4. Navigate to the directory with your site use `cd <directory name>`
+5. Run `surge` and follow prompts if it is your first time deploying
+6. You can reach your site from the url that the program prints out
 
 ## Domains
 You can buy a domain name. This means that you own that url. You will need somewhere to host the files (we will get to this in a bit). You will need to pay for this; some hosting companies will give you a free domain, but you still are paying for the hosting. It is usually far easier to buy the domain from the hosting company you will use, the transfer process can be a pain if you buy from a different company.

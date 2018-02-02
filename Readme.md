@@ -1,4 +1,5 @@
 # Learn HTML and CSS
+These lessons will give you the basics needed to create and host your own website. This is not meant to be a deep dive or cover all available topics and scenarios. Instead the information is broken up into four lessons each designed to be about an hour of work. It should give you the foundation of knowledge that allows you to get started as well as be able to confidently search for and understand more advanced tutorials and documentation. After each lesson, there is an example website that shows an example for how to implement the elements and style topics covered.
 
 ## Prerequisites
 - Web browser (I prefer Chrome)
@@ -182,6 +183,9 @@ Margin - Transparent spacing between border and other elements
 * `font-weight` - mostly for bold
 	* *values* - normal, bold
 
+# CSS Lesson 3
+## CSS Advanced and CSS frameworks
+
 ### Display
 **Properties**
 * `display` - how element should be displayed
@@ -245,7 +249,7 @@ You can also layer your own css on top of bootstrap style. Use bootstrap as a fo
 The best resource I have found for learning CSS is [W3 Schools](https://www.w3schools.com/css/default.asp) They have an extensive tutorial for CSS and for Bootstrap and allow you to try things out in the browser.
 
 
-# Web Hosting
+# Web Hosting Lesson 4
 There are many ways to get your website from your computer out into the internet to be accessed by the world. We will only cover a few of them today (and you only need to pick one anyways). 
 
 ## Simple Option — Surge

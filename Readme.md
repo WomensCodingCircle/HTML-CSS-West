@@ -1,4 +1,5 @@
 # Learn HTML and CSS
+These lessons will give you the basics needed to create and host your own website. This is not meant to be a deep dive or cover all available topics and scenarios. Instead the information is broken up into four lessons each designed to be about an hour of work. It should give you the foundation of knowledge that allows you to get started as well as be able to confidently search for and understand more advanced tutorials and documentation. After each lesson, there is an example website that shows an example for how to implement the elements and style topics covered.
 
 ## Prerequisites
 - Web browser (I prefer Chrome)
@@ -182,6 +183,9 @@ Margin - Transparent spacing between border and other elements
 * `font-weight` - mostly for bold
 	* *values* - normal, bold
 
+# CSS Lesson 3
+## CSS Advanced and CSS frameworks
+
 ### Display
 **Properties**
 * `display` - how element should be displayed
@@ -243,6 +247,43 @@ You can also layer your own css on top of bootstrap style. Use bootstrap as a fo
 ## More Help
 
 The best resource I have found for learning CSS is [W3 Schools](https://www.w3schools.com/css/default.asp) They have an extensive tutorial for CSS and for Bootstrap and allow you to try things out in the browser.
+
+
+# Web Hosting Lesson 4
+There are many ways to get your website from your computer out into the internet to be accessed by the world. We will only cover a few of them today (and you only need to pick one anyways). 
+
+## Simple Option — Surge
+[Surge](http://surge.sh) is a command line tool that allows you to publish from the directory with your site.  It is free for basic hosting. They will give you a domain name or you can use your own. We will learn how to buy domains later.
+
+1. Install Node and NPM
+NPM is a package manager. It allows you to install certain programs that have been uploaded to their site (like Surge).
+[Node.js](https://nodejs.org/en/) 
+2. Open the command line (terminal in OSX, powershell in Windows)
+3. Navigate to the directory with your site use `cd <directory name>`
+4. Run `surge` and follow prompts if it is your first time deploying
+5. You can reach your site from the url that the program prints out
+
+## Domains
+You can buy a domain name. This means that you own that url. You will need somewhere to host the files (we will get to this in a bit). You will need to pay for this; some hosting companies will give you a free domain, but you still are paying for the hosting. It is usually far easier to buy the domain from the hosting company you will use, the transfer process can be a pain if you buy from a different company.
+
+## Long-Term Option - Hosting
+Once you get more comfortable with hosting you almost certainly will want to use a hosting company. There are several good options. The some of the popular options currently are [BlueHost](https://www.bluehost.com/), [HostGator](https://www.hostgator.com/), and [GoDaddy](https://www.godaddy.com/). I use Bluehost so I’ll cover that. It will cost money.
+
+### Bluehost Instructions
+
+#### Sign up
+1. Select hosting plan (Basic is fine for now)
+2. Search for an available domain name
+3. Fill out sign up form (make sure you uncheck all the extra options).
+
+#### Hosting Site
+1. Login to account
+2. Go to hosting tab
+3. Click on file manager  in the files section. Choose Web Root
+4. Click Upload button and select file.  (The default permissions are fine)
+5. Index.html will be the site that is loaded when you go to the domain name, everything else will be a relative path. 
+6. Go to your URL and check it out!
+
 
 
 *circles-and-roundabouts by Riadh Khan*
